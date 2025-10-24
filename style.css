@@ -1,0 +1,68 @@
+/* Reset & Base */
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Arial', sans-serif; }
+body { background: #f8f9fa; color:#333; }
+
+/* Header */
+header {
+  text-align:center;
+  background: linear-gradient(to right, #0f4c81, #0f9d58);
+  color:white;
+  padding:30px 20px;
+}
+header h1 { font-size:2.5em; margin-bottom:10px; }
+header p { font-size:1.2em; margin-bottom:20px; }
+header nav a {
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:bold;
+  transition:0.3s;
+}
+header nav a:hover { color:#ffdd59; }
+
+/* Sections */
+.section { display:none; padding:50px 20px; max-width:1000px; margin:0 auto; }
+.section h2 { font-size:2em; margin-bottom:20px; text-align:center; }
+
+/* Skills */
+.skills-list { list-style:none; display:flex; flex-wrap:wrap; justify-content:center; }
+.skills-list li {
+  background:#e0f7fa;
+  margin:10px;
+  padding:10px 20px;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.3s;
+}
+.skills-list li:hover { background:#b2ebf2; }
+
+/* Projects & Cards */
+.project-card {
+  background:white;
+  margin:15px 0;
+  padding:20px;
+  border-radius:10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+.project-card:hover { transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.2); }
+
+/* Certificates */
+.certificates-list { list-style:none; display:flex; flex-wrap:wrap; justify-content:center; }
+.certificates-list li {
+  background:#fff3e0;
+  margin:10px;
+  padding:15px 25px;
+  border-radius:8px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+.certificates-list li:hover { background:#ffe0b2; transform:translateY(-3px); }
+
+/* Contact */
+section#contact { text-align:center; }
+
+/* Responsive */
+@media(max-width:768px){
+  .skills-list, .certificates-list { flex-direction:column; align-items:center; }
+}
