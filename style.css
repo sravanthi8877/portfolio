@@ -19,6 +19,8 @@ header nav a {
   transition:0.3s;
 }
 header nav a:hover { color:#ffdd59; }
+/* Active nav link color */
+header nav a.active { color:#ffcc00; }  /* yellow when active */
 
 /* Sections */
 .section { display:none; padding:50px 20px; max-width:1000px; margin:0 auto; }
