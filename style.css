@@ -24,7 +24,7 @@ header nav a.active { color:#ffcc00; }  /* yellow when active */
 
 /* Sections */
 .section { display:none; padding:50px 20px; max-width:1000px; margin:0 auto; }
-.section h2 { font-size:2em; margin-bottom:20px; text-align:center; }
+.section h2 { font-size:2em; margin-bottom:20px; text-align:center; color:#ffcc00; } /* yellow headings */
 
 /* About Me & Education */
 .about-text {
