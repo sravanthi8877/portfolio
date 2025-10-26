@@ -24,6 +24,18 @@ header nav a:hover { color:#ffdd59; }
 .section { display:none; padding:50px 20px; max-width:1000px; margin:0 auto; }
 .section h2 { font-size:2em; margin-bottom:20px; text-align:center; }
 
+/* About Me & Education */
+.about-text {
+  color: #1E3A8A; /* dark blue for About Me paragraph */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom:20px;
+}
+.edu-name strong {
+  color: #0D9488; /* teal/dark cyan for education names */
+  font-size: 1.05rem;
+}
+
 /* Skills */
 .skills-list { list-style:none; display:flex; flex-wrap:wrap; justify-content:center; }
 .skills-list li {
