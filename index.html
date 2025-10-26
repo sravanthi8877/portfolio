@@ -1,84 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perumalla Sravanthi | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Perumalla Sravanthi — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header / Navigation -->
-  <header>
-    <h1>Perumalla Sravanthi</h1>
-    <p>Artificial Intelligence and Data Science Student</p>
-    <nav>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#certificates" class="nav-link">Certificates</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Perumalla Sravanthi</h1>
+        <p class="subtitle">Artificial Intelligence and Data Science Student</p>
+      </div>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
   </header>
 
-  <!-- Sections -->
-  <section id="about" class="section hidden">
-    <h2>About Me</h2>
-    <p>I am an aspiring AI & Data Science engineer with a strong interest in building simple, practical, and impactful solutions. I enjoy working with data and creating meaningful insights through analytics and visualization. My focus is on solving real-world problems with clean design and reliable code.</p>
-    <p><strong>College:</strong> Seshadri Rao Gudlavalleru Engineering College, B.Tech Final Year (AI & DS)</p>
-    <p><strong>Location:</strong> Perikegudem, Manadavlli Mandal, Krishna District, Andhra Pradesh, India</p>
-  </section>
+  <main>
+    <section id="about" class="panel about-panel">
+      <div class="panel-inner container">
+        <h2>About Me</h2>
+        <p>Hi — I'm Perumalla Sravanthi, an AI & Data Science student. I build projects around data analysis, ML models, and web dashboards. (Brief intro — replace with your text.)</p>
+      </div>
+    </section>
 
-  <section id="skills" class="section hidden">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Python</li>
-      <li>SQL</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Java</li>
-    </ul>
-  </section>
+    <section id="skills" class="panel skills-panel">
+      <div class="panel-inner container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Python (pandas, NumPy, scikit-learn)</li>
+          <li>Data Visualization (Tableau, matplotlib)</li>
+          <li>Web (HTML, CSS, JavaScript, PHP)</li>
+          <li>Machine Learning & Deep Learning basics</li>
+        </ul>
+      </div>
+    </section>
 
-  <section id="projects" class="section hidden">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Blood Donor Alert System</h3>
-      <p>A real-time web-based platform designed to connect blood donors and recipients instantly based on location and blood group. Includes user registration, admin dashboard, and quick donor search with alert features.</p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
-      <a href="https://blooddonoralert.rf.gd/blood_donor_system/" target="_blank">🔗 Live Demo</a>
-      <p style="color:red; font-size: 0.9em;">⚠️ Recommended to open in Microsoft Edge for full functionality without security warnings.</p>
+    <section id="projects" class="panel projects-panel">
+      <div class="panel-inner container">
+        <h2>Projects</h2>
+        <p><strong>Blood Donor Alert System</strong> — Real-time nearby donor alerts (College BTech project).</p>
+        <p><strong>Unemployment Rate Prediction</strong> — Time-series / ML model project.</p>
+        <p>(Add links or screenshots as needed.)</p>
+      </div>
+    </section>
+
+    <section id="certificates" class="panel certificates-panel">
+      <div class="panel-inner container">
+        <h2>Certificates</h2>
+        <p>List important certificates here (e.g., SmartBridge Generative AI Intern — July 2024, Tableau Internship — July 2025).</p>
+      </div>
+    </section>
+
+    <section id="contact" class="panel contact-panel">
+      <div class="panel-inner container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn / GitHub: add links</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Perumalla Sravanthi. All rights reserved.</p>
     </div>
-
-    <div class="project-card">
-      <h3>Unemployment Rate Prediction</h3>
-      <p>Developed a machine learning model to analyze and predict unemployment trends in India, helping identify patterns and provide insights.</p>
-      <p><strong>Tech:</strong> Python, Scikit-learn, Pandas, Matplotlib</p>
-      <a href="https://github.com/sravanthi8877/Unemployment--Rate-Prediction" target="_blank">🔗 View Code</a>
-    </div>
-  </section>
-
-  <section id="certificates" class="section hidden">
-    <h2>Certificates</h2>
-    <ul class="certificates-list">
-      <li><a href="https://drive.google.com/file/d/10AA4o8TeIgc69jvr2RlFDDgutvHXN9Za/view?usp=sharing" target="_blank">WebScrapping</a></li>
-      <li><a href="https://drive.google.com/file/d/18sxJfy2RubNJ_4tDZwVitsHBlJ-zBt5y/view?usp=sharing" target="_blank">SmartInternz Certificate 1</a></li>
-      <li><a href="https://drive.google.com/file/d/1t9pnf5yfNtzMaSzHlGql5OYhiAC9xLpl/view?usp=sharing" target="_blank">SmartInternz Certificate 2</a></li>
-      <li><a href="https://drive.google.com/file/d/1EGA2Q12uKtg8TK8V6BJjGVui8wdOc91m/view?usp=sharing" target="_blank">CSS3</a></li>
-      <li><a href="https://drive.google.com/file/d/1EABj1V4Wi5XoiRJzPdyhr2_RDxr0ENC1/view?usp=sharing" target="_blank">edX Certificate</a></li>
-      <li><a href="https://drive.google.com/file/d/1E2aYVrLXH4ewH0o15MHh5LTdCGUPQz-8/view?usp=sharing" target="_blank">HTML5</a></li>
-      <li><a href="https://drive.google.com/file/d/1E2_65NEdfOkdHjnnwCVaMsdiPvD8g2SJ/view?usp=sharing" target="_blank">JavaScript</a></li>
-      <li><a href="https://drive.google.com/file/d/1DxGy_x44oe_Cs8-J194zzh3aXVml3ONA/view?usp=sharing" target="_blank">Python</a></li>
-      <li><a href="https://drive.google.com/file/d/1DrEZ8ohEIw8gPab-_qnqpSH80iqX7mtG/view?usp=sharing" target="_blank">Machine Learning</a></li>
-    </ul>
-  </section>
-
-  <section id="contact" class="section hidden">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sravanthip750@gmail.com">sravanthip750@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/sravanthi8877" target="_blank">https://linkedin.com/in/sravanthi8877</a></p>
-    <p>GitHub: <a href="https://github.com/sravanthi8877" target="_blank">https://github.com/sravanthi8877</a></p>
-  </section>
+  </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
